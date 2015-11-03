@@ -1,9 +1,11 @@
 (function Number() {
 
+  'use strict';
+
   function PhoneNumber (phone) {
     this.phone = phone;
     this.cleanPhone = "";
-  };
+  }
 
   PhoneNumber.prototype.number = function(){
     return this.firstDigitOne();
